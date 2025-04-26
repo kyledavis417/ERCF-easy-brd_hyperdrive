@@ -32,8 +32,8 @@ Heatsink for TO-220 | *(recommended) 1x for the L7805CP (1)*
 ## Configure the MCU - Seeeduino XIAO
 * Install bossac (version ≥1.8)
 ```
-sudo apt install libreadline-dev libwxgtk3.0-*
-git clone https://github.com/shumatech/BOSSA.git
+sudo apt install libreadline-dev libwxgtk3.2-dev
+git clone https://github.com/kyledavis417/BOSSA_bookware
 cd BOSSA
 make
 sudo cp bin/bossac /usr/local/bin
